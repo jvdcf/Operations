@@ -4,6 +4,6 @@ public class Application {
         Scanner scanner = new Scanner(System.in);
         int a = scanner.nextInt();
         int b = scanner.nextInt();
-        System.out.println(a + b);
+        System.out.printf("Result: %d", a + b);
     }
 }
